@@ -11,6 +11,7 @@ const base = "https://github.com/zerbazaar/releases/releases"
 var routes = map[string]string{
 	"/sunucu/windows":      base + "/latest/download/zerbazaar-sunucu-kurulum.exe",
 	"/sunucu/linux":        base + "/latest/download/zerbazaar-server_amd64.deb",
+	"/sunucu/macos":        base + "/latest/download/zerbazaar-sunucu-kurulum.pkg",
 	"/tanistirici/linux":   base + "/latest/download/zerbazaar-introducer_amd64.deb",
 	"/tanistirici/windows": base + "/latest/download/zerbazaar-introducer_windows.zip",
 	"/tanistirici/macos":   base + "/latest/download/zerbazaar-introducer_macos.tar.gz",
